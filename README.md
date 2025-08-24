@@ -106,7 +106,6 @@ pip install -r requirements.txt
   - Set `GROQ_API_KEY`
   - Aponte `OUT_DIR = "src/data/faiss_per_number"`
 
-**Dica**: se quiser expor uma API no Colab, use o bootstrap Flask+ngrok mostrado no notebook `rag_model_groq.ipynb` (ou no guia que montamos).
 
 ## Resultados (dev, principais)
 
@@ -147,9 +146,6 @@ ans = generate_json_answer(
 
 print(json.dumps(ans, ensure_ascii=False, indent=2))
 ```
-
-> Se você não tiver `rag_core.py` no repositório, copie os "blocos core" do `notebooks/rag_model_groq.ipynb` (retriever, agregação per-number, prompt e chamadas Groq) para um módulo `rag_core.py`.
-
 ## Observabilidade & controles
 
 - **Caps** (enunciado_char_cap, evidence_char_cap) para não estourar janelas/TPM da API
