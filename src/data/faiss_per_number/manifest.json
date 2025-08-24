@@ -1,0 +1,8 @@
+{
+  "model_name": "sentence-transformers/paraphrase-multilingual-mpnet-base-v2",
+  "dim": 768,
+  "max_seq_length": 384,
+  "built_at": "2025-08-24 14:33:05",
+  "chunks_source": "/content/sumulas_chunks_mpnet.jsonl",
+  "count": 5764
+}
